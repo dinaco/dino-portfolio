@@ -1,8 +1,5 @@
 # Description
 This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments, thanks to the [author](https://github.com/tbakerx).
-
-# About [`particles-bg`](https://github.com/lindelof/particles-bg) Library
-
 # Run Project
 ### 1. Clone the project
 
