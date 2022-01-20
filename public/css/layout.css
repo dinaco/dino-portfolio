@@ -64,12 +64,14 @@ header .banner-text h1 {
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #ddd;
+  color: #c9c9c9;
   margin: 0 auto;
   width: 70%;
+  text-shadow: 0px 1px 2px rgb(0 0 0 / 50%);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {

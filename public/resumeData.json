@@ -1,22 +1,14 @@
 {
   "main": {
-    "name":"Dino Marchiori",
-    "description":"I am a full stack developer! Always hungry for knowledge.",
+    "name":"I'm Dino Marchiori.",
+    "description":"A full stack developer, always hungry for knowledge!",
     "image":"profilepic.jpg",
     "bio":"I'm a developer that comes from a business and finance background. Through my past experiences, I can balance the need of users and businesses to understand their pain points and contribute as a developer to solve their issues. I've worked with a wide range of people from different backgrounds and demographics. This has enabled me to adapt and become flexible in the workplace.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Let's chat! Fill up the form below to send me a message. I'd love hearing from you.",
     "email": "dinaco1@gmail.com",
-    "phone": "555-555-5555",
     "github":"https://github.com/dinaco/",
     "project":"https://codepen.io/dinaco/",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"http://",
     "social":[
       {
         "name":"CodePen",
@@ -43,27 +35,27 @@
       },
       {
         "name":"JavaScript",
-        "level":"90%"
+        "level":"80%"
       },
       {
         "name":"ReactJS",
-        "level":"90%"
+        "level":"70%"
       },
       {
         "name":"ReactNative",
-        "level":"90%"
+        "level":"70%"
       },
       {
         "name":"PHP",
-        "level":"90%"
+        "level":"60%"
       },
       {
         "name":"MySQL",
-        "level":"90%"
+        "level":"60%"
       },
       {
         "name":"Python",
-        "level":"60%"
+        "level":"30%"
       }
     ]
   },
@@ -92,54 +84,6 @@
         "category":"A React based resume website template",
         "image":"04.jpg",
         "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
       }
     ]
   }

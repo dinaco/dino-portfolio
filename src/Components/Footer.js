@@ -5,8 +5,6 @@ class Footer extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const { name } = this.props.data;
-
     const networks = this.props.data.social.map(function (network) {
       return (
         <li key={network.name}>
@@ -26,7 +24,6 @@ class Footer extends Component {
 
               <ul className="copyright">
                 <li>&copy; Copyright {new Date().getFullYear()}</li>
-                <li>{name}</li>
               </ul>
             </div>
           </Fade>
