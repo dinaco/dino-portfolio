@@ -3,7 +3,6 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
-import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 
 class App extends Component {
@@ -13,7 +12,6 @@ class App extends Component {
       resumeData: {},
     };
   }
-
   getResumeData() {
     fetch(`./resumeData.json`)
       .then((response) => response.json())
@@ -27,14 +25,14 @@ class App extends Component {
   }
 
   render() {
+    const { main, skills, portfolio } = this.state.resumeData;
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Skills data={this.state.resumeData.skills} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
+        <Header data={main} />
+        <About data={main} />
+        <Skills data={skills} />
+        <Portfolio data={portfolio} />
+        <Footer data={main} />
       </div>
     );
   }

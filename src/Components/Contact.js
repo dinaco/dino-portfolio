@@ -2,10 +2,28 @@ import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
 
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: null, email: null, subject: null, message: null };
+  }
+
   render() {
     if (!this.props.data) return null;
 
     const message = this.props.data.contactmessage;
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const data = new FormData(e.target);
+      alert(data.toString());
+      /* fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(data).toString(),
+      })
+        .then(() => console.log("Form successfully submitted"))
+        .catch((error) => alert(error)); */
+    };
 
     return (
       <section id="contact">
@@ -26,7 +44,7 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div>
-              <form action="" method="post" id="contactForm" name="contactForm">
+              <form onSubmit={handleSubmit} id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -38,7 +56,6 @@ class Contact extends Component {
                       size="35"
                       id="contactName"
                       name="contactName"
-                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -52,7 +69,6 @@ class Contact extends Component {
                       size="35"
                       id="contactEmail"
                       name="contactEmail"
-                      onChange={this.handleChange}
                     />
                   </div>
 
@@ -64,7 +80,6 @@ class Contact extends Component {
                       size="35"
                       id="contactSubject"
                       name="contactSubject"
-                      onChange={this.handleChange}
                     />
                   </div>
 
