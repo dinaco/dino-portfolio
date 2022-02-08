@@ -62,10 +62,10 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Movie Browser App",
+        "category":"This app was developed using ReactJS, ReactHooks and Bootstrap. The API is providaded by TMDB and the app uses fetch to get the API info.",
+        "image":"movies-app.jpg",
+        "url":"https://reactjs-movie-app-dino.netlify.app/"
       },
       {
         "title":"Fury Fighting Gear",

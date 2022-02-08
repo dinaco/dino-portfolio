@@ -5,8 +5,8 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const { name, bio, email, resumeDownload } = this.props.data;
-    const profilepic = "images/" + this.props.data.image;
+    const { name, bio, email, image /* resumeDownload */ } = this.props.data;
+    const profilepic = `images/${image}`;
 
     return (
       <section id="about">
@@ -32,13 +32,13 @@ class About extends Component {
                     <span>{email}</span>
                   </p>
                 </div>
-                <div className="columns download">
+                {/* <div className="columns download">
                   <p>
                     <a href={resumeDownload} className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

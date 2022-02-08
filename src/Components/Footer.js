@@ -5,9 +5,9 @@ class Footer extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const networks = this.props.data.social.map(function (network) {
+    const networks = this.props.data.social.map((network, i) => {
       return (
-        <li key={network.name}>
+        <li key={i}>
           <a href={network.url}>
             <i className={network.className}></i>
           </a>
