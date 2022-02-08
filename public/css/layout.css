@@ -484,6 +484,10 @@ ul#nav li.current a {
   display: block;
   cursor: pointer;
 }
+.portfolio-item .item-wrap ul {
+  display: flex;
+  justify-content: center;
+}
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
@@ -539,7 +543,7 @@ ul#nav li.current a {
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
+  font: 16px/24px "opensans-light", sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
 }
@@ -885,7 +889,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-  color: #0762f9;
+  color: #11abb0;
 }
 #contact a:hover,
 #contact a:focus {
@@ -955,7 +959,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
   color: #fff;
-  background-color: #0762f9;
+  background-color: #11abb0;
 }
 #contact button.submit {
   text-transform: uppercase;
@@ -974,7 +978,7 @@ call-to-action .button {
   background: #fff;
 }
 #contact span.required {
-  color: #0762f9;
+  color: #11abb0;
   font-size: 13px;
 }
 #message-warning,
@@ -990,7 +994,7 @@ call-to-action .button {
   color: #d72828;
 }
 #message-success {
-  color: #0762f9;
+  color: #11abb0;
 }
 
 #message-warning i,
