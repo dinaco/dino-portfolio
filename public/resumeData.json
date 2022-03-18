@@ -74,7 +74,7 @@
         "image":"movies-app.jpg",
         "url":"https://reactjs-movie-app-dino.netlify.app/",
         "codeUrl":"https://github.com/dinaco/movies-app"
-      },
+      }
     ]
   }
 }
