@@ -23,32 +23,20 @@
   "skills": {
     "skills": [
       {
-        "name": "CSS",
-        "level": "90%"
+        "name": "MongoDB",
+        "level": "100%"
       },
       {
-        "name": "JavaScript",
-        "level": "80%"
+        "name": "ExpressJS",
+        "level": "100%"
       },
       {
         "name": "ReactJS",
-        "level": "70%"
+        "level": "100%"
       },
       {
-        "name": "ReactNative",
-        "level": "70%"
-      },
-      {
-        "name": "PHP",
-        "level": "60%"
-      },
-      {
-        "name": "MySQL",
-        "level": "60%"
-      },
-      {
-        "name": "Python",
-        "level": "30%"
+        "name": "NodeJS",
+        "level": "100%"
       }
     ]
   },
