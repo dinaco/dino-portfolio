@@ -8,7 +8,7 @@ class Footer extends Component {
     const networks = this.props.data.social.map((network, i) => {
       return (
         <li key={i}>
-          <a href={network.url}>
+          <a href={network.url} target='_blank' rel='noreferrer'>
             <i className={network.className}></i>
           </a>
         </li>
@@ -17,20 +17,20 @@ class Footer extends Component {
 
     return (
       <footer>
-        <div className="row">
+        <div className='row'>
           <Fade bottom>
-            <div className="twelve columns">
-              <ul className="social-links">{networks}</ul>
+            <div className='twelve columns'>
+              <ul className='social-links'>{networks}</ul>
 
-              <ul className="copyright">
+              <ul className='copyright'>
                 <li>&copy; Copyright {new Date().getFullYear()}</li>
               </ul>
             </div>
           </Fade>
 
-          <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
-              <i className="icon-up-open"></i>
+          <div id='go-top'>
+            <a className='smoothscroll' title='Back to Top' href='#home'>
+              <i className='icon-up-open'></i>
             </a>
           </div>
         </div>

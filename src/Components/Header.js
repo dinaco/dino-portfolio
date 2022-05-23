@@ -6,77 +6,87 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const { project, github, name, description } = this.props.data;
+    const { social, name, description } = this.props.data;
 
     return (
-      <header id="home">
-        <ParticlesBg type="lines" bg={true} />
+      <header id='home'>
+        <ParticlesBg type='lines' bg={true} />
 
-        <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+        <nav id='nav-wrap'>
+          <a className='mobile-btn' href='#nav-wrap' title='Show navigation'>
             Show navigation
           </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
+          <a className='mobile-btn' href='#home' title='Hide navigation'>
             Hide navigation
           </a>
 
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
+          <ul id='nav' className='nav'>
+            <li className='current'>
+              <a className='smoothscroll' href='#home'>
                 Home
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#about">
+              <a className='smoothscroll' href='#about'>
                 About
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#skills">
+              <a className='smoothscroll' href='#skills'>
                 Skills
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <a className='smoothscroll' href='#portfolio'>
                 Works
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
+              <a className='smoothscroll' href='#contact'>
                 Contact
               </a>
             </li>
           </ul>
         </nav>
 
-        <div className="row banner">
-          <div className="banner-text">
+        <div className='row banner'>
+          <div className='banner-text'>
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className='responsive-headline'>{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
               <h3>{description}</h3>
             </Fade>
             <Fade bottom duration={2000}>
-              <ul className="social">
-                <a href={project} className="button btn">
-                  <i className="fa fa-book"></i>CodePen
+              <ul className='social'>
+                <a
+                  href={social[0].url}
+                  target='_blank'
+                  rel='noreferrer'
+                  className='button btn'>
+                  <i className={social[0].className}></i>
+                  {social[0].name}
                 </a>
-                <a href={github} className="button btn">
-                  <i className="fa fa-github"></i>Github
+                <a
+                  href={social[1].url}
+                  target='_blank'
+                  rel='noreferrer'
+                  className='button btn'>
+                  <i className={social[1].className}></i>
+                  {social[1].name}
                 </a>
               </ul>
             </Fade>
           </div>
         </div>
 
-        <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
+        <p className='scrolldown'>
+          <a className='smoothscroll' href='#about'>
+            <i className='icon-down-circle'></i>
           </a>
         </p>
       </header>

@@ -9,20 +9,30 @@ class Portfolio extends Component {
       const projectImage = `images/portfolio/${projects.image}`;
 
       return (
-        <div key={i} className="columns portfolio-item">
-          <div className="item-wrap">
+        <div key={i} className='columns portfolio-item'>
+          <div className='item-wrap'>
             <img alt={projects.title} src={projectImage} />
-            <div className="overlay">
-              <div className="portfolio-item-meta">
+            <div className='overlay'>
+              <div className='portfolio-item-meta'>
                 <h5>{projects.title}</h5>
                 <p>{projects.category}</p>
-                <ul className="social">
-                  <a href={projects.url} className="button btn">
-                    <i className="fa fa-globe"></i>Visit
+                <ul className='social'>
+                  <a
+                    href={projects.url}
+                    target='_blank'
+                    rel='noreferrer'
+                    className='button btn'>
+                    <i className='fa fa-globe'></i>Visit
                   </a>
-                  <a href={projects.codeUrl} className="button btn">
-                    <i className="fa fa-github"></i>Code
-                  </a>
+                  {projects.codeUrl && (
+                    <a
+                      href={projects.codeUrl}
+                      target='_blank'
+                      rel='noreferrer'
+                      className='button btn'>
+                      <i className='fa fa-github'></i>Code
+                    </a>
+                  )}
                 </ul>
               </div>
             </div>
@@ -32,13 +42,13 @@ class Portfolio extends Component {
     });
 
     return (
-      <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
-          <div className="row">
-            <div className="twelve columns collapsed">
+      <section id='portfolio'>
+        <Fade left duration={1000} distance='40px'>
+          <div className='row'>
+            <div className='twelve columns collapsed'>
               <h1>Check Out Some of My Works.</h1>
 
-              <div id="portfolio-wrapper" className="bgrid-halves cf">
+              <div id='portfolio-wrapper' className='bgrid-halves cf'>
                 {projects}
               </div>
             </div>
