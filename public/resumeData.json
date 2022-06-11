@@ -43,6 +43,13 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Event Hero",
+        "category": "Full Stack app (MERN) - Online event wallet that can be used to make orders in concerts, festivals and other events. Complete application with 4 user roles (customer, staff, event admin and app admin).",
+        "image": "event-hero.jpg",
+        "url": "https://iron-event-hero.netlify.app/",
+        "codeUrl": "https://github.com/dinaco/event-hero-client"
+      },
+      {
         "title": "Trip Planner",
         "category": "As one of my projects at Ironhack's bootcamp I created an app to help users to plan ahead their trips and add activities to each day of the trip. The map will help the user check his daily route and see if its doable on that date or if he should rearrange his activities among the other days. The app uses google maps API and cloudinary API to handle the images.",
         "image": "trip-planner.jpg",
