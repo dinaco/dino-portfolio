@@ -44,7 +44,7 @@
     "projects": [
       {
         "title": "Event Hero",
-        "category": "Full Stack app (MERN) - Online event wallet that can be used to make orders in concerts, festivals and other events. Complete application with 4 user roles (customer, staff, event admin and app admin).",
+        "category": "Award winning Full Stack app (MERN). Got 96% of the votes competing against 18 other great projects. The app is an online event wallet that can be used to make orders in concerts, festivals and other events. Complete application with 4 user roles (customer, staff, event admin and app admin).",
         "image": "event-hero.jpg",
         "url": "https://iron-event-hero.netlify.app/",
         "codeUrl": "https://github.com/dinaco/event-hero-client"
